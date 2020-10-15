@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Register Local Storage</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div id="alert"></div>
+
+            <form id="form" class="form-register">
+                <h4>Registrate</h4>
+
+                <input class="controls" type="text" id="name" placeholder="Ingrese su nombre completo" required>
+                <input class="controls" type="text" id="nick" placeholder="Ingrese su nombre de usuario" required>
+                <input class="controls" type="password" id="pass" placeholder="Ingrese su contraseña" required>
+
+                <hr>
+
+                <input class="botons" id="btnRegister" type="submit" value="Registrarse">
+
+                <div class="text-center">
+                    <span>¿Ya tienes una cuenta? <a href="index.html">Ingresa aquí</a></span>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <!-- JS SCRIPT -->
+    <script src="./assets/js/Logic_Register.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
